@@ -17,6 +17,17 @@ Josefin Sans Medium
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif, "Nova Flat", system-ui;
   /* font-family: "Nova Flat", system-ui; */
+  user-select: none;
+}
+
+body {
+  /* min-height: 100dvh; */
+  align-items: flex-start;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .text-cntr {
@@ -25,6 +36,10 @@ Josefin Sans Medium
 
 .font-logo {
   font-family: "Nova Flat", "Josefin Sans", system-ui;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .font-xxs {
@@ -77,8 +92,8 @@ Josefin Sans Medium
   display: flex;
 }
 
-.j-i-cntr {
-  justify-items: center;
+.j-c-cntr {
+  justify-content: center;
 }
 
 .a-c-cntr {
@@ -90,11 +105,14 @@ Josefin Sans Medium
 }
 
 .nav-con {
-  justify-content: space-between;
   width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 72rem;
 }
 
 .nav-links {
   list-style-type: none;
   gap: 2.5rem;
+  white-space: nowrap;
 }
