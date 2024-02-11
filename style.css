@@ -1,0 +1,100 @@
+/*
+Fonts Used:
+Nova Flat Book
+
+Josefin Sans Light
+Josefin Sans ExtraLight
+Josefin Sans Regular
+Josefin Sans Bold
+Josefin Sans Light Italic
+Josefin Sans Medium
+*/
+
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif, "Nova Flat", system-ui;
+  /* font-family: "Nova Flat", system-ui; */
+}
+
+.text-cntr {
+  text-align: center;
+}
+
+.font-logo {
+  font-family: "Nova Flat", "Josefin Sans", system-ui;
+}
+
+.font-xxs {
+  font-size: xx-small;
+}
+
+.font-xs {
+  font-size: x-small;
+}
+
+.font-s {
+  font-size: small;
+}
+
+.font-m {
+  font-size: medium;
+}
+
+.font-l {
+  font-size: large;
+}
+
+.font-xl {
+  font-size: x-large;
+}
+
+.font-xxl {
+  font-size: xx-large;
+}
+
+.color {
+  color: #5e331b;
+}
+
+.logo-con {
+  align-items: center;
+}
+
+.logo-img {
+  width: 4.5rem;
+}
+
+.logo-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.flex {
+  display: flex;
+}
+
+.j-i-cntr {
+  justify-items: center;
+}
+
+.a-c-cntr {
+  align-content: center;
+}
+
+.a-i-cntr {
+  align-items: center;
+}
+
+.nav-con {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-links {
+  list-style-type: none;
+  gap: 2.5rem;
+}
