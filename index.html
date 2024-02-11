@@ -32,6 +32,7 @@
         <small class="font-logo font-xs">Since 1985</small>
       </div>
     </div>
+    <input class="checkbox" type="checkbox" id="check">
     <div class="flex nav-links font-light font-l">
       <a href="#">Sayfa</a>
       <a href="#">Sipariş Ver</a>
@@ -39,12 +40,17 @@
       <a href="#">Sizden Gelenler</a>
       <a href="#">Hakkımızda</a>
     </div>
+
     <!-- Hamburger Button, Visible on Mobile -->
-    <ul class="menu-btn">
-      <a href="#"><span class="material-symbols-outlined">
-          menu
-        </span></a>
-    </ul>
+    <label for="check">
+      <a id="open" class="menu-btn material-symbols-outlined">
+        menu
+      </a>
+      <a id="close" class="close-btn material-symbols-outlined">
+        close
+      </a>
+    </label>
+
   </nav>
 
   <main>
