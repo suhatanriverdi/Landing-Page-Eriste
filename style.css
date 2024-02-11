@@ -121,9 +121,7 @@ a {
 }
 
 .nav-links {
-  list-style-type: none;
   gap: 2.5rem;
-  white-space: nowrap;
 }
 
 .m-t {
