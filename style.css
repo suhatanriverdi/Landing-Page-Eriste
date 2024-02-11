@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+.line-h {
+  line-height: 95%;
+}
+
 .text-cntr {
   text-align: center;
 }
@@ -83,8 +87,8 @@ a {
 }
 
 .logo-img {
-  width: 4.5rem;
-  height: 3.583rem;
+  width: max-content;
+  height: 3rem
 }
 
 .logo-img img {
@@ -110,6 +114,7 @@ a {
 }
 
 .nav-con {
+  padding: 0 2rem;
   width: 100%;
   justify-content: space-between;
   max-width: 72rem; /* %80 of full width */
@@ -123,4 +128,21 @@ a {
 
 .m-t {
   margin-top: 2rem;
+}
+
+
+/* -------------------- MOBILE SCREENS -------------------- */
+
+.menu-btn {
+  display: none;
+}
+
+/* Navbar in Mobile Screens */
+@media (width <= 855px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-btn {
+    display: inline-block;
+  }
 }
