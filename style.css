@@ -62,6 +62,10 @@ a {
   font-size: large;
 }
 
+.font-larger {
+  font-size: larger;
+}
+
 .font-xl {
   font-size: x-large;
 }
@@ -80,6 +84,7 @@ a {
 
 .logo-img {
   width: 4.5rem;
+  height: 3.583rem;
 }
 
 .logo-img img {
@@ -107,12 +112,15 @@ a {
 .nav-con {
   width: 100%;
   justify-content: space-between;
-  margin: auto;
-  max-width: 72rem;
+  max-width: 72rem; /* %80 of full width */
 }
 
 .nav-links {
   list-style-type: none;
   gap: 2.5rem;
   white-space: nowrap;
+}
+
+.m-t {
+  margin-top: 2rem;
 }
