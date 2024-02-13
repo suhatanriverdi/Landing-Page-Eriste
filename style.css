@@ -41,6 +41,13 @@ a {
   text-align: center;
 }
 
+.text-cntr p::after {
+    content: "Since 1985";
+    display: block;
+    font-size: small;
+    line-height: 0.9rem;
+}
+
 .font-logo {
   font-family: "Nova Flat", "Josefin Sans", system-ui;
 }
@@ -168,8 +175,9 @@ a {
   .checkbox:checked ~ .nav-links {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 116px;
-    left: 37px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: bisque;
   }
 }
