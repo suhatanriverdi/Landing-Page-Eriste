@@ -173,6 +173,16 @@ a {
   display: none;
 }
 
+@keyframes side-move-in {
+  from {
+    opacity: 0;
+    left: -100px;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* Navbar in Mobile Screens */
 @media (width <= 855px) {
   #nav-links {
@@ -196,6 +206,7 @@ a {
   }
 
   .checkbox:checked ~ #nav-links {
+    animation: 0.15s ease-in forwards side-move-in;
     display: flex;
     flex-direction: column;
     position: fixed;
