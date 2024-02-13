@@ -10,6 +10,12 @@ Josefin Sans Light Italic
 Josefin Sans Medium
 */
 
+:root {
+  --orange: #ffd4a1;
+  --orange-light: rgb(255, 230, 200);
+  --brown: #5e331b;
+}
+
 /* CSS Reset */
 * {
   padding: 0;
@@ -21,7 +27,7 @@ Josefin Sans Medium
 }
 
 nav {
-  background-color: antiquewhite;
+  background-color: var(--orange-light);
 }
 
 main {
@@ -42,10 +48,10 @@ a {
 }
 
 .text-cntr p::after {
-    content: "Since 1985";
-    display: block;
-    font-size: small;
-    line-height: 0.9rem;
+  content: "Since 1985";
+  display: block;
+  font-size: small;
+  line-height: 0.9rem;
 }
 
 .font-logo {
@@ -88,8 +94,8 @@ a {
   font-size: xx-large;
 }
 
-.color {
-  color: #5e331b;
+.brown {
+  color: var(--brown);
 }
 
 .logo-con {
@@ -132,7 +138,7 @@ a {
   max-width: 72rem; /* %80 of full width */
 }
 
-.nav-links {
+#nav-links {
   gap: 2.5rem;
 }
 
@@ -154,30 +160,61 @@ a {
   display: none;
 }
 
+#gulderen-logo-side-menu {
+  display: none;
+}
+
+#body-check {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
 /* Navbar in Mobile Screens */
 @media (width <= 855px) {
-  .nav-links {
+  #nav-links {
     display: none;
   }
 
   #open.menu-btn {
-    display: inline-block;
+    display: block;
   }
 
-  .checkbox:checked ~ label #open.menu-btn {
+  /* .checkbox:checked ~ label #open.menu-btn {
     display: none;
   }
 
   .checkbox:checked ~ label #close.close-btn {
     display: inline-block;
+  } */
+
+  .checkbox:checked ~ #nav-links #gulderen-logo-side-menu {
+    display: flex;
   }
 
-  .checkbox:checked ~ .nav-links {
+  .checkbox:checked ~ #nav-links {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0px;
-    left: 0px;
-    background-color: bisque;
+    gap: 2.5rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--orange-light);
+    padding: 2rem 1.5rem;
+    box-shadow: 0 0 0.3rem 0.01rem rgba(118, 65, 40, 0.405);
+  }
+
+  /* To close side bar by clicking on body */
+  .checkbox:checked + #body-check {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
   }
 }
