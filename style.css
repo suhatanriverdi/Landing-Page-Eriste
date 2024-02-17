@@ -117,14 +117,6 @@ a {
   display: flex;
 }
 
-.j-c-cntr {
-  justify-content: center;
-}
-
-.a-c-cntr {
-  align-content: center;
-}
-
 .a-i-cntr {
   align-items: center;
 }
@@ -132,10 +124,15 @@ a {
 .nav-con {
   position: fixed;
   z-index: 1;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   width: 100%;
+  justify-content: center;
+}
+
+.nav-con-inner {
   justify-content: space-between;
-  max-width: 72rem; /* %80 of full width */
+  width: 100%;
+  max-width: 72rem;
 }
 
 #nav-links {
@@ -146,13 +143,14 @@ a {
   margin-top: 2rem;
 }
 
-/* -------------------- MOBILE SCREENS -------------------- */
-
-#open.menu-btn {
-  display: none;
+@media (width > 855px) {
+  #label {
+    display: none;
+  }
 }
 
-#close.close-btn {
+/* -------------------- MOBILE SCREENS -------------------- */
+#open.menu-btn {
   display: none;
 }
 
@@ -193,19 +191,6 @@ a {
   }
 }
 
-.checkbox:not(:checked) ~ #nav-links {
-  animation: 0.15s ease-out forwards side-move-out;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  gap: 2.5rem;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  background-color: var(--orange-light);
-  padding: 2rem 1.5rem;
-}
-
 /* Navbar in Mobile Screens */
 @media (width <= 855px) {
   #nav-links {
@@ -215,14 +200,6 @@ a {
   #open.menu-btn {
     display: block;
   }
-
-  /* .checkbox:checked ~ label #open.menu-btn {
-    display: none;
-  }
-
-  .checkbox:checked ~ label #close.close-btn {
-    display: inline-block;
-  } */
 
   .checkbox:checked ~ #nav-links #gulderen-logo-side-menu {
     display: flex;

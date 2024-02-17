@@ -16,27 +16,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!-- Material Icons -->
 <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <link
   href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Nova+Flat&display=swap"
   rel="stylesheet">
 
 <body class="flex j-c-cntr">
-  <nav class="nav-con flex brown a-i-cntr m-t">
-    <div class="logo-con flex">
-      <div class="logo-img">
-        <img src="./public/hero/rose.png" alt="Company logo">
-      </div>
-      <div class="text-cntr">
-        <p class="font-logo font-xxl line-h">Gülderen</p>
-      </div>
-    </div>
-    <input class="checkbox" type="checkbox" id="check">
-    <label id="body-check" for="check"></label>
-    <div id="nav-links" class="flex font-light font-l">
-
-      <!-- Gülderen Logo, Visible on Mobile -->
-      <div id="gulderen-logo-side-menu" class="logo-con flex">
+  <nav class="nav-con flex brown">
+    <div class="nav-con-inner flex a-i-cntr">
+      <div class="logo-con flex">
         <div class="logo-img">
           <img src="./public/hero/rose.png" alt="Company logo">
         </div>
@@ -44,23 +32,35 @@
           <p class="font-logo font-xxl line-h">Gülderen</p>
         </div>
       </div>
+      <input class="checkbox" type="checkbox" id="check">
+      <label id="body-check" for="check"></label>
 
-      <a href="#">Sayfa</a>
-      <a href="#">Sipariş Ver</a>
-      <a href="#">Hazırlanış</a>
-      <a href="#">Sizden Gelenler</a>
-      <a href="#">Hakkımızda</a>
+      <div id="nav-links" class="flex font-light font-l a-i-cntr">
+
+        <!-- Gülderen Logo, Visible on Mobile -->
+        <div id="gulderen-logo-side-menu" class="logo-con flex">
+          <div class="logo-img">
+            <img src="./public/hero/rose.png" alt="Company logo">
+          </div>
+          <div class="text-cntr">
+            <p class="font-logo font-xxl line-h">Gülderen</p>
+          </div>
+        </div>
+
+        <a href="#">Sayfa</a>
+        <a href="#">Sipariş Ver</a>
+        <a href="#">Hazırlanış</a>
+        <a href="#">Sizden Gelenler</a>
+        <a href="#">Hakkımızda</a>
+      </div>
+
+      <!-- Hamburger Button, Visible on Mobile -->
+      <label id="label" for="check">
+        <a id="open" class="menu-btn material-symbols-outlined">
+          menu
+        </a>
+      </label>
     </div>
-
-    <!-- Hamburger Button, Visible on Mobile -->
-    <label for="check">
-      <a id="open" class="menu-btn material-symbols-outlined">
-        menu
-      </a>
-      <!-- <a id="close" class="close-btn material-symbols-outlined">
-        close
-      </a> -->
-    </label>
 
   </nav>
 
