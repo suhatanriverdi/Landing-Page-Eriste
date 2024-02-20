@@ -26,6 +26,10 @@ Josefin Sans Medium
   user-select: none;
 }
 
+.brown-color {
+  color: var(--brown);
+}
+
 nav {
   background-color: var(--orange-light);
 }
@@ -41,6 +45,10 @@ img {
   object-fit: contain;
 }
 
+.f-1 {
+  flex: 1;
+}
+
 .m-r-s {
   margin-right: 0.5rem;
 }
@@ -53,6 +61,14 @@ img {
   padding: 1rem;
 }
 
+.m-b-s {
+  margin-bottom: 0.5rem;
+}
+
+.m-b-m {
+  margin-bottom: 1.2rem;
+}
+
 .line-h {
   line-height: 95%;
 }
@@ -61,7 +77,8 @@ img {
   text-align: center;
 }
 
-.text-cntr p::after {
+#gulderen p::after,
+#gulderen-logo-side-menu p::after {
   content: "Since 1985";
   display: block;
   font-size: small;
@@ -206,17 +223,30 @@ img {
   }
 }
 
+.glow {
+}
+
 .main {
-  margin-top: 6rem;
+  margin-top: 16rem;
   flex-direction: row;
 }
 
+.glow {
+  width: 10rem;
+  z-index: -1;
+  position: fixed;
+  box-shadow: 0 0 9rem 8rem var(--orange);
+}
+
 .e-big-con {
-  height: 10rem;
+  height: 15rem;
 }
 
 .e-sm-con {
-  height: 8rem;
+  height: 9rem;
+  position: relative;
+  top: -6rem;
+  left: 10rem;
 }
 
 /* -------------------- MOBILE SCREENS -------------------- */
