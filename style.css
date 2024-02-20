@@ -41,6 +41,18 @@ img {
   object-fit: contain;
 }
 
+.m-r-s {
+  margin-right: 0.5rem;
+}
+
+.m {
+  margin: 1rem;
+}
+
+.p {
+  padding: 1rem;
+}
+
 .line-h {
   line-height: 95%;
 }
@@ -96,6 +108,10 @@ img {
   font-size: xx-large;
 }
 
+.font-xxxl {
+  font-size: xxx-large;
+}
+
 .brown {
   color: var(--brown);
 }
@@ -109,13 +125,55 @@ img {
   height: 3rem;
 }
 
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 1;
+}
+
+.button {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 5rem;
+  border: var(--orange);
+  color: var(--brown);
+  background-color: var(--orange);
+  font-size: large;
+  font-weight: 300;
+}
+
+.button:hover {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 5rem;
+  border: var(--orange);
+  box-shadow: 0 0 0.2rem 0.005rem #ffbe6e;
+  color: var(--brown);
+  background-color: #ffbe6e;
+  cursor: pointer;
+}
+
+.button:active {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 5rem;
+  border: #ff8c00;
+  color: var(--brown);
+  background-color: #ff9c22;
+}
 
 .flex {
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .a-i-cntr {
   align-items: center;
+}
+
+.j-c-cntr {
+  justify-content: center;
 }
 
 .nav-con {
@@ -153,11 +211,11 @@ img {
   flex-direction: row;
 }
 
-.e-big-con{
+.e-big-con {
   height: 10rem;
 }
 
-.e-sm-con{
+.e-sm-con {
   height: 8rem;
 }
 
