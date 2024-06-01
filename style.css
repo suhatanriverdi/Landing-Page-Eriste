@@ -219,11 +219,6 @@ img {
   }
 }
 
-.main {
-  margin-top: 16rem;
-  flex-direction: row;
-}
-
 .glow {
   width: 10rem;
   z-index: -1;
@@ -240,4 +235,9 @@ img {
   position: relative;
   top: -6rem;
   left: 10rem;
+}
+
+.hero {
+  margin-top: 16rem;
+  max-width: 72rem;
 }
