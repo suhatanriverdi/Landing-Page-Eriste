@@ -222,7 +222,7 @@ img {
 .glow {
   width: 10rem;
   z-index: -1;
-  position: fixed;
+  position: absolute;
   box-shadow: 0 0 9rem 8rem var(--orange);
 }
 
@@ -240,4 +240,9 @@ img {
 .hero {
   margin-top: 16rem;
   max-width: 72rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
 }
