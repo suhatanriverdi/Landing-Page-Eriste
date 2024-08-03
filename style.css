@@ -177,6 +177,10 @@ img {
   display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -240,6 +244,10 @@ img {
 .hero {
   margin-top: 16rem;
   max-width: 72rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem;
+  gap: 7rem;
 }
 
 .content {
