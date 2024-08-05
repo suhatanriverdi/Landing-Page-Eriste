@@ -12,6 +12,7 @@ Josefin Sans Medium
 
 :root {
   --orange: #ffd4a1;
+  --green: #e6ee9c;
   --orange-light: rgb(255, 230, 200);
   --brown: #5e331b;
 }
@@ -226,34 +227,34 @@ img {
 }
 
 .button-order {
-  width: 6rem;
+  width: 12rem;
   height: 3rem;
   border-radius: 5rem;
-  border: var(--orange);
+  border: var(--green);
   color: var(--brown);
-  background-color: var(--orange);
+  background-color: var(--green);
   font-size: large;
   font-weight: 300;
 }
 
 .button-order:hover {
-  width: 6rem;
+  width: 12rem;
   height: 3rem;
   border-radius: 5rem;
-  border: var(--orange);
-  box-shadow: 0 0 0.2rem 0.005rem #ffbe6e;
+  border: var(--green);
+  box-shadow: 0 0 0.2rem 0.005rem #ddec5a;
   color: var(--brown);
-  background-color: #ffbe6e;
+  background-color: #ddec5a;
   cursor: pointer;
 }
 
 .button-order:active {
-  width: 6rem;
+  width: 12rem;
   height: 3rem;
   border-radius: 5rem;
-  border: #ff8c00;
+  border: #cae000;
   color: var(--brown);
-  background-color: #ff9c22;
+  background-color: #cae000;
 }
 
 .flex {
