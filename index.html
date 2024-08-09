@@ -111,7 +111,9 @@
       <section class="order flex-col flex flex-wrap">
         <div class="flex j-c-cntr a-i-cntr">
           <div class="pos-rel flex f-1 flex-col j-c-cntr a-i-cntr m-r-xl">
-            <p class="weight font-light font-xxxl">2 kg</p>
+            <p id="amount" class="weight font-light font-xxxl" data-value="2">
+              2 kg
+            </p>
             <div>
               <img src="./public/sack.png" alt="A filled sack" />
             </div>
@@ -124,7 +126,7 @@
                 <input
                   class="slider"
                   type="range"
-                  id="tempB"
+                  id="slider"
                   name="temp"
                   min="1"
                   max="5"
@@ -215,5 +217,15 @@
     </div>
 
     <footer></footer>
+
+    <!-- JS to update kg label based on slider's value -->
+    <script>
+      const amount = document.getElementById("amount");
+      const slider = document.getElementById("slider");
+      slider.addEventListener("input", () => {
+        const value = slider.value;
+        amount.textContent = `${value} kg`;
+      });
+    </script>
   </body>
 </html>
