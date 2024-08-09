@@ -338,6 +338,10 @@ img {
   box-shadow: 0 0 9rem 8rem var(--orange);
 }
 
+.img-con-s {
+  height: 4rem;
+}
+
 .e-big-con {
   height: 15rem;
 }
@@ -348,11 +352,20 @@ img {
   left: 30%;
 }
 
+.p-box-ctr {
+  width: 30rem;
+  text-align: center;
+}
+
 .e-sm-con {
   height: 9rem;
   position: relative;
   top: -6rem;
   left: 10rem;
+}
+
+.ingredients-con {
+  justify-content: space-between;
 }
 
 .order {
