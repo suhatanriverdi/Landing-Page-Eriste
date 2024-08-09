@@ -257,6 +257,10 @@ img {
   background-color: #cae000;
 }
 
+.pos-rel {
+  position: relative;
+}
+
 .flex {
   display: flex;
 }
@@ -339,9 +343,9 @@ img {
 }
 
 .weight {
-  position: relative;
-  top: 12rem;
-  left: 30%;
+  position: absolute;
+  top: 58%;
+  left: 73%;
 }
 
 .e-sm-con {
