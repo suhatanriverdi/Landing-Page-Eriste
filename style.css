@@ -42,6 +42,29 @@ img {
   object-fit: contain;
 }
 
+.slider {
+  opacity: 0.6;
+  background-color: #ffbe6e;
+  transition: opacity 0.2s;
+}
+
+option {
+  padding-top: 0.8rem;
+}
+
+datalist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: vertical-lr;
+  width: 200px;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin: 0;
+}
+
 .f-1 {
   flex: 1;
 }
@@ -89,6 +112,10 @@ img {
 
 .m-b-m {
   margin-bottom: 1.2rem;
+}
+
+.m-b-l {
+  margin-bottom: 2.2rem;
 }
 
 .line-h {
@@ -289,10 +316,6 @@ img {
   justify-content: center;
 }
 
-.order-con {
-  justify-content: left;
-}
-
 .nav-con {
   position: fixed;
   z-index: 1;
@@ -348,7 +371,7 @@ img {
 
 .weight {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 30%;
 }
 
@@ -369,7 +392,7 @@ img {
 }
 
 .order {
-  margin-top: 16rem;
+  margin-top: 8rem;
   max-width: 72rem;
   justify-content: center;
   align-items: center;
