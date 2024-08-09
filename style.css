@@ -69,6 +69,30 @@ input[data-value="3"] ~ #amount {
   content: "3 Kg";
 }
 
+/* Animation when text changes */
+.slider-value {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.slider-value.show {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInUp 0.5s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .f-1 {
   flex: 1;
 }
