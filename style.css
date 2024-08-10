@@ -404,9 +404,17 @@ input[data-value="3"] ~ #amount {
   height: 15rem;
 }
 
-/* .prep-con {
-  align-items: start;
-} */
+.prep-con {
+  width: 30rem;
+}
+
+.align-self-start {
+  align-self: start;
+}
+
+.align-self-end {
+  align-self: end;
+}
 
 .weight {
   position: absolute;
