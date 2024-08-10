@@ -312,6 +312,13 @@ input[data-value="3"] ~ #amount {
   background-color: #cae000;
 }
 
+.circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  background-color: var(--orange);
+}
+
 .pos-rel {
   position: relative;
 }
