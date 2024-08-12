@@ -11,6 +11,7 @@ Josefin Sans Medium
 */
 
 :root {
+  --orange-hard: #e65100;
   --orange: #ffd4a1;
   --green: #e6ee9c;
   --orange-light: rgb(255, 230, 200);
@@ -29,6 +30,10 @@ Josefin Sans Medium
 
 .brown-color {
   color: var(--brown);
+}
+
+.orange-color {
+  color: var(--orange-hard);
 }
 
 a {
@@ -144,6 +149,10 @@ input[data-value="3"] ~ #amount {
 
 .m-b-l {
   margin-bottom: 2.2rem;
+}
+
+.m-b-xl {
+  margin-bottom: 4.2rem;
 }
 
 .line-h {
@@ -406,6 +415,9 @@ input[data-value="3"] ~ #amount {
 
 .prep-con {
   width: 30rem;
+}
+
+.customers-con {
 }
 
 .align-self-start {
