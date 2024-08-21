@@ -1,7 +1,6 @@
 /*
 Fonts Used:
 Nova Flat Book
-
 Josefin Sans Light
 Josefin Sans ExtraLight
 Josefin Sans Regular
@@ -10,6 +9,7 @@ Josefin Sans Light Italic
 Josefin Sans Medium
 */
 
+/* Global varilables */
 :root {
   --orange-hard: #e65100;
   --orange: #ffd4a1;
@@ -130,6 +130,10 @@ input[data-value="3"] ~ #amount {
   margin: 1rem;
 }
 
+.m-h {
+  margin: 0 3rem;
+}
+
 .p {
   padding: 1rem;
 }
@@ -173,6 +177,10 @@ input[data-value="3"] ~ #amount {
 
 .font-logo {
   font-family: "Nova Flat", "Josefin Sans", system-ui;
+}
+
+.font-italic {
+  font-style: italic;
 }
 
 .font-light {
@@ -417,9 +425,6 @@ input[data-value="3"] ~ #amount {
   width: 30rem;
 }
 
-.customers-con {
-}
-
 .align-self-start {
   align-self: start;
 }
@@ -431,7 +436,7 @@ input[data-value="3"] ~ #amount {
 .weight {
   position: absolute;
   top: 55%;
-  left: 24%;
+  left: 29%;
 }
 
 .p-box-ctr {
@@ -446,6 +451,10 @@ input[data-value="3"] ~ #amount {
   left: 10rem;
 }
 
+.comment-con {
+  max-width: 72rem;
+}
+
 .ingredients-con {
   justify-content: space-between;
 }
@@ -457,12 +466,20 @@ input[data-value="3"] ~ #amount {
   padding: 0 3rem;
 }
 
+.order-cus {
+  margin-top: 8rem;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
 .stroke-line {
   margin-top: 16rem;
+  width: 100vw;
 }
 
 .content {
   margin-top: 16rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
