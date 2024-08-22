@@ -138,6 +138,14 @@ input[data-value="3"] ~ #amount {
   padding: 1rem;
 }
 
+.p-h {
+  padding: 0 3rem;
+}
+
+.rot-90 {
+  transform: rotate(90deg);
+}
+
 .p-box {
   width: 20rem;
   text-align: justify;
@@ -234,6 +242,22 @@ input[data-value="3"] ~ #amount {
 .logo-img {
   width: max-content;
   height: 3rem;
+}
+
+.dropdown-con {
+  width: 65%;
+  height: 3rem;
+  border-radius: 5rem;
+  border: var(--orange);
+  color: var(--brown);
+  background-color: var(--orange);
+  font-size: large;
+  font-weight: 300;
+}
+
+.dropdown-content-con {
+  width: 65%;
+  font-size: large;
 }
 
 .button {
@@ -366,6 +390,10 @@ input[data-value="3"] ~ #amount {
 
 .j-c-cntr {
   justify-content: center;
+}
+
+.j-c-sb {
+  justify-content: space-between;
 }
 
 .nav-con {
