@@ -50,13 +50,13 @@
             </div>
           </div>
 
-          <a href="#">Sayfa</a>
-          <a href="#">Sipariş Ver</a>
+          <a href="#">Ana Sayfa</a>
+          <a href="#order">Sipariş Ver</a>
           <a href="#">Hazırlanış</a>
           <a href="#">Sizden Gelenler</a>
           <a href="#">Hakkımızda</a>
         </div>
-        <!-- Empty container just to bbe able to click on body and close navbar -->
+        <!-- Empty container just to be able to click on body and close navbar -->
         <label id="body-check" for="check"></label>
         <!-- Hamburger Button, Visible on Mobile -->
         <label id="label" for="check">
@@ -108,7 +108,9 @@
 
       <!-- Order Section -->
       <!-- Burda problem var, horzontal slider çıkıyor alta kontrol et! -->
-      <h1 class="text-cntr font-light font-xxl m-t-xl">Sipariş Ver</h1>
+      <h1 id="order" class="text-cntr font-light font-xxl m-t-xl">
+        Sipariş Ver
+      </h1>
       <section class="order flex-col flex flex-wrap">
         <div class="flex j-c-cntr a-i-cntr">
           <div class="pos-rel flex f-1 flex-col j-c-cntr a-i-cntr m-r-xl">
@@ -397,7 +399,7 @@
         </div>
         <div class="dropdown-content-con flex p-h m-b-l">
           <p>
-            Ülkemizdeki Yurtiçi kargonun ulaştığı tüm şeihlerimize gönderim
+            Ülkemizdeki Yurtiçi kargonun ulaştığı tüm şehirlerimize gönderim
             yapmaktayız.
           </p>
         </div>
@@ -429,6 +431,37 @@
       <section class="order flex-col flex flex-wrap">
         <div class="customers-con m-t-xl flex flex-col a-i-start m-b-l">
           <h1 class="font-light font-xxl">Hakkımızda</h1>
+        </div>
+        <div>
+          <div>
+            <div class="logo-con flex">
+              <div class="logo-img">
+                <img src="./public/hero/rose.png" alt="Company logo" />
+              </div>
+              <div id="gulderen" class="text-cntr">
+                <p class="font-logo font-xxl line-h">Gülderen</p>
+              </div>
+            </div>
+            <p>
+              1971 yılında Ankarada doğan Gülderen teyze, çektiği bütün
+              sıkıntıları ve cefa dolu hayat mücadelesinde çocuklarını en iyi
+              şartlarda yetiştirebilmek için elinden geleni yaptı. Yaptığı tüm
+              yemeklerde elinin lezzeti hiç eksik olmadı. Yılların verdiği el
+              lezzetiyle günümüze kadar hiç bozulmadan getirdiği kalitesiyle siz
+              degerli müsterilerimize sağlıklı, kaliteli ve bir o kadar da
+              lezzetli erişteleri sofranıza getiriyoruz.
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <a href="#">Ana Sayfa</a>
+            <a href="#order">Sipariş Ver</a>
+            <a href="#">Hazırlanış</a>
+            <a href="#">Sizden Gelenler</a>
+            <a href="#">Hakkımızda</a>
+          </div>
+          <div class="flex flex-col">
+            <a href="#">İletişim</a>
+          </div>
         </div>
       </section>
     </div>
