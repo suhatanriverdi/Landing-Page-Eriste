@@ -39,6 +39,13 @@ Josefin Sans Medium
 a {
   color: inherit;
   text-decoration: none;
+  width: fit-content;
+}
+
+a:hover {
+  color: var(--orange-hard);
+  text-decoration: none;
+  width: fit-content;
 }
 
 img {
@@ -270,6 +277,7 @@ input[data-value="3"] ~ #amount {
 .dropdown-content-con {
   width: 65%;
   font-size: large;
+  font-weight: 300;
 }
 
 .button {
@@ -511,6 +519,10 @@ input[data-value="3"] ~ #amount {
   gap: 1rem 0;
 }
 
+.allow-user-select {
+  user-select: all;
+}
+
 .order {
   margin-top: 8rem;
   justify-content: center;
@@ -522,6 +534,7 @@ input[data-value="3"] ~ #amount {
   justify-content: center;
   align-items: center;
   padding: 0 3rem;
+  margin-bottom: 10rem;
 }
 
 .order-cus {

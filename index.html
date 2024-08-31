@@ -26,7 +26,7 @@
     />
   </head>
 
-  <body class="flex j-c-cntr brown-color">
+  <body id="hero" class="flex j-c-cntr brown-color">
     <nav class="nav-con flex">
       <div class="nav-con-inner flex a-i-cntr">
         <div class="logo-con flex">
@@ -50,11 +50,12 @@
             </div>
           </div>
 
-          <a href="#">Ana Sayfa</a>
+          <a href="#hero">Ana Sayfa</a>
           <a href="#order">Sipariş Ver</a>
-          <a href="#">Hazırlanış</a>
-          <a href="#">Sizden Gelenler</a>
-          <a href="#">Hakkımızda</a>
+          <a href="#preparation">Hazırlanış</a>
+          <a href="#customers">Sizden Gelenler</a>
+          <a href="#faq">SSS</a>
+          <a href="#about-us">Hakkımızda</a>
         </div>
         <!-- Empty container just to be able to click on body and close navbar -->
         <label id="body-check" for="check"></label>
@@ -108,9 +109,7 @@
 
       <!-- Order Section -->
       <!-- Burda problem var, horzontal slider çıkıyor alta kontrol et! -->
-      <h1 class="text-cntr font-light font-xxl m-t-xl">
-        Sipariş Ver
-      </h1>
+      <h1 class="text-cntr font-light font-xxl m-t-xl">Sipariş Ver</h1>
       <section class="order flex-col flex flex-wrap">
         <div class="flex j-c-cntr a-i-cntr">
           <div class="pos-rel flex f-1 flex-col j-c-cntr a-i-cntr m-r-xl">
@@ -188,7 +187,7 @@
       </section>
 
       <!-- Stroke Line -->
-      <section class="stroke-line flex">
+      <section id="preparation" class="stroke-line flex">
         <div>
           <!-- <img src="/public/eriste-side-half.png" alt="eriste" /> -->
         </div>
@@ -295,7 +294,7 @@
       </section>
 
       <!-- Stroke Line -->
-      <section class="stroke-line flex">
+      <section id="customers" class="stroke-line flex">
         <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
           <line
             x1="0"
@@ -355,7 +354,7 @@
       </section>
 
       <!-- Stroke Line -->
-      <section class="stroke-line flex">
+      <section id="faq" class="stroke-line flex">
         <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
           <line
             x1="0"
@@ -416,7 +415,7 @@
       </section>
 
       <!-- Stroke Line -->
-      <section class="stroke-line flex">
+      <section id="about-us" class="stroke-line flex">
         <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
           <line
             x1="0"
@@ -453,19 +452,28 @@
             </p>
           </div>
           <div class="flex flex-col f-1 about-links">
-            <a href="#">Ana Sayfa</a>
+            <b>Menü</b>
+            <a href="#hero">Ana Sayfa</a>
             <a href="#order">Sipariş Ver</a>
-            <a href="#">Hazırlanış</a>
-            <a href="#">Sizden Gelenler</a>
-            <a href="#">Hakkımızda</a>
+            <a href="#preparation">Hazırlanış</a>
+            <a href="#customers">Sizden Gelenler</a>
+            <a href="#faq">SSS</a>
+            <a href="#about-us">Hakkımızda</a>
           </div>
-          <div class="flex flex-col f-1">
-            <a href="#">İletişim</a>
+          <div class="flex flex-col f-1 about-links">
+            <b>Bize Ulaşın</b>
+            <p class="allow-user-select" href="#">
+              <span>📞 </span>+90 542 123 12 12
+            </p>
+            <p class="allow-user-select" href="#">
+              <span>✉️ </span>gulderenmutfagi@gmail.com
+            </p>
           </div>
         </div>
         <div class="m-t-xl flex flex-col a-i-cntr m-b-l">
           <h1 class="font-light font-s">All Rights Reserved.</h1>
-          <h1 class="font-light font-s">Genesis Corporation™ 2019</h1>
+          <h1 class="font-light font-s m-b-s">Genesis Corporation™ 2024</h1>
+          <p class="font-light font-xxs">Created by <b>Süha Tanrıverdi</b></p>
         </div>
       </section>
     </div>
