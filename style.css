@@ -511,6 +511,10 @@ input[data-value="3"] ~ #amount {
   max-width: 72rem;
 }
 
+.customers-con {
+  max-width: 72rem;
+}
+
 .ingredients-con {
   justify-content: space-between;
 }
@@ -524,7 +528,7 @@ input[data-value="3"] ~ #amount {
 }
 
 .order {
-  margin-top: 8rem;
+  margin-top: 10rem;
   justify-content: center;
   align-items: center;
   padding: 0 3rem;
