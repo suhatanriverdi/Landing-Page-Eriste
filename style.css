@@ -102,6 +102,18 @@ input[data-value="3"] ~ #amount {
   flex: 1;
 }
 
+.f-2 {
+  flex: 2;
+}
+
+.f-3 {
+  flex: 3;
+}
+
+.f-4 {
+  flex: 4;
+}
+
 .m-r-s {
   margin-right: 0.5rem;
 }
@@ -396,6 +408,14 @@ input[data-value="3"] ~ #amount {
   justify-content: space-between;
 }
 
+.about-con {
+  max-width: 72rem;
+  justify-content: space-between;
+  gap: 0 5rem;
+  text-align: justify;
+  margin-top: 8rem;
+}
+
 .nav-con {
   position: fixed;
   z-index: 1;
@@ -487,8 +507,18 @@ input[data-value="3"] ~ #amount {
   justify-content: space-between;
 }
 
+.about-links {
+  gap: 1rem 0;
+}
+
 .order {
   margin-top: 8rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.order-about {
   justify-content: center;
   align-items: center;
   padding: 0 3rem;
