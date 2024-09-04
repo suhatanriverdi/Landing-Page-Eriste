@@ -46,7 +46,7 @@
 }
 
 /* Navbar in Mobile Screens */
-@media (width <= 900px) {
+@media (width <= 1000px) {
   #nav-links {
     display: none;
   }

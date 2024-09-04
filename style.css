@@ -456,7 +456,7 @@ input[data-value="3"] ~ #amount {
   margin-top: 8rem;
 }
 
-@media (width > 900px) {
+@media (width > 1000px) {
   #label {
     display: none;
   }
@@ -467,6 +467,13 @@ input[data-value="3"] ~ #amount {
   z-index: -1;
   position: absolute;
   box-shadow: 0 0 9rem 8rem var(--orange);
+}
+
+.glow-about {
+  width: 100dvw;
+  z-index: -1;
+  /* position: absolute; */
+  box-shadow: 0 4rem 10rem 10rem var(--orange);
 }
 
 .img-con-s {
@@ -505,6 +512,10 @@ input[data-value="3"] ~ #amount {
   position: relative;
   top: -6rem;
   left: 10rem;
+}
+
+.m-b-10 {
+  margin-bottom: 10rem;
 }
 
 .comment-con {
