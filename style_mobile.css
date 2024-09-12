@@ -69,10 +69,10 @@
     top: 0px;
     left: 0px;
     gap: 3rem;
-    background-color: var(--orange-light);
-    /* backdrop-filter: blur(0.3rem); */
+    background-color: rgba(255, 234, 211, 0.7);
+    backdrop-filter: blur(0.5rem);
     padding: 2rem 1.5rem;
-    box-shadow: 0 0 0.3rem 0.01rem rgba(118, 65, 40, 0.405);
+    box-shadow: 0 0 0.3rem 0.01rem rgba(119, 89, 33, 0.4);
   }
 
   /* To close side bar by clicking on body */
