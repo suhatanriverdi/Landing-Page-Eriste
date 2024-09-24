@@ -190,6 +190,10 @@ input[data-value="3"] ~ #amount {
   margin-bottom: 4.2rem;
 }
 
+.m-b-xxl {
+  margin-bottom: 10rem;
+}
+
 .line-h {
   line-height: 95%;
 }
@@ -460,6 +464,10 @@ input[data-value="3"] ~ #amount {
   margin-top: 8rem;
 }
 
+.m-t-xxl {
+  margin-top: 10rem;
+}
+
 @media (width > 1000px) {
   #label {
     display: none;
@@ -474,7 +482,7 @@ input[data-value="3"] ~ #amount {
 }
 
 .glow-about {
-  width: 100%;
+  width: 10%;
   z-index: -1;
   /* position: absolute; */
   box-shadow: 0 4rem 10rem 10rem var(--orange);
@@ -557,17 +565,17 @@ input[data-value="3"] ~ #amount {
 }
 
 .order-cus {
-  margin-top: 8rem;
   justify-content: center;
   padding: 0 3rem;
 }
 
 .stroke-line {
   margin-top: 16rem;
-  width: 100vw;
+  width: 100%;
 }
 
 .content {
+  max-width: 72rem;
   margin-top: 16rem;
   display: flex;
   flex-direction: column;
