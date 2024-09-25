@@ -68,7 +68,7 @@
 
     <div class="content">
       <!-- Hero Section -->
-      <section class="hero flex flex-wrap">
+      <!-- <section class="hero flex flex-wrap">
         <div class="flex flex-col j-c-cntr a-i-cntr">
           <div class="glow"></div>
           <div class="e-big-con">
@@ -90,10 +90,10 @@
             >Sipariş Ver
           </button>
         </div>
-      </section>
+      </section> -->
 
       <!-- Stroke Line -->
-      <section id="order" class="stroke-line flex">
+      <!-- <section id="order" class="stroke-line flex">
         <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
           <line
             x1="0"
@@ -102,9 +102,101 @@
             style="stroke: rgb(193, 117, 30); stroke-width: 2"
           />
         </svg>
+      </section> -->
+
+      <!-- Order Section -->
+      <!-- Burda problem var, horzontal slider çıkıyor alta kontrol et! -->
+      <h1 class="text-cntr font-light font-xxl m-t-xxl">Sipariş Ver</h1>
+      <section class="order flex-col flex">
+        <div class="flex gap-order j-c-cntr a-i-cntr flex-wrap">
+          <div class="pos-rel flex flex-col j-c-cntr a-i-cntr">
+            <p
+              id="amount"
+              class="slider-value show weight font-light font-xxxl"
+              data-value="2"
+            >
+              2 kg
+            </p>
+            <div>
+              <img src="./public/order/sack.png" alt="A filled sack" />
+            </div>
+            <p class="font-light font-l">Sade Erişte</p>
+          </div>
+          <div class="flex flex-col slider-con">
+            <label for="amount">Miktar Belirleyin:</label><br />
+            <div class="flex j-c-cntr a-i-cntr order-con m-b-m">
+              <div class="flex flex-col">
+                <input
+                  class="slider"
+                  type="range"
+                  id="slider"
+                  name="temp"
+                  min="1"
+                  max="5"
+                  value="2"
+                  list="values"
+                />
+                <datalist id="values">
+                  <option value="1" label="1 Kg"></option>
+                  <option value="2" label="2 Kg"></option>
+                  <option value="3" label="3 Kg"></option>
+                  <option value="4" label="4 Kg"></option>
+                  <option value="5" label="5 Kg"></option>
+                </datalist>
+              </div>
+            </div>
+            <p class="font-light m-b-m p-box">
+              Ürünleriniz belirtilen ağırlıkta, görseldeki kutu içerisinde
+              kargoda tarafınıza teslim edilecektir.
+            </p>
+            <button class="button-order flex j-c-cntr a-i-cntr">
+              <span class="material-symbols-outlined">shopping_cart </span>
+              <p class="m-l-m">Sipariş Ver</p>
+            </button>
+          </div>
+        </div>
+        <div class="m-t-xl">
+          <p class="font-light m-b-m p-box-ctr">
+            Ürünlerimiz yalnızca doğal malzemelerden yapılır ve hiç bir katkı
+            maddesi içermez.
+          </p>
+          <div class="ingredients-con flex a-i-cntr">
+            <div class="flex flex-col text-cntr j-c-cntr a-i-cntr">
+              <div class="img-con-s">
+                <img src="./public/order/wheat.png" alt="Wheat" />
+              </div>
+              <p class="font-light m-b-m">Buğday Unu</p>
+            </div>
+            <div class="flex flex-col text-cntr j-c-cntr a-i-cntr">
+              <div class="img-con-s">
+                <img src="./public/order/egg.png" alt="Wheat" />
+              </div>
+              <p class="font-light m-b-m">Yumurta</p>
+            </div>
+            <div class="flex flex-col text-cntr j-c-cntr a-i-cntr">
+              <div class="img-con-s">
+                <img src="./public/order/salt.png" alt="Wheat" />
+              </div>
+              <p class="font-light m-b-m">Tuz</p>
+            </div>
+          </div>
+        </div>
       </section>
 
-
+      <!-- Stroke Line -->
+      <section id="preparation" class="stroke-line flex">
+        <div>
+          <!-- <img src="/public/eriste-side-half.png" alt="eriste" /> -->
+        </div>
+        <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <line
+            x1="0"
+            x2="100%"
+            stroke-dasharray="5,10,5"
+            style="stroke: rgb(193, 117, 30); stroke-width: 2"
+          />
+        </svg>
+      </section>
     </div>
 
     <!-- JS to update kg label based on slider's value -->

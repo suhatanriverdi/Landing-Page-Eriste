@@ -603,3 +603,13 @@ input[data-value="3"] ~ #amount {
   width: 100%;
   padding: 0 5rem;
 }
+
+.gap-order {
+  gap: 0 2rem;
+}
+
+.slider-con {
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+}

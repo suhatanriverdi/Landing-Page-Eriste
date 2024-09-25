@@ -77,6 +77,23 @@
   }
 }
 
+/* Gap in Order Section Mobile Screens */
+@media (width <= 640px) {
+  .gap-order {
+    gap: 3rem 2rem;
+  }
+  .slider-con {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .p-box {
+    width: 23rem;
+    text-align: center;
+    margin: 1.2rem 0 2.4rem 0;
+  }
+}
+
 /* Glow Effect in Mobile Screens */
 @media (width <= 600px) {
   .glow {
