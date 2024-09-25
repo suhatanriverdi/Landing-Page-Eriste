@@ -54,6 +54,26 @@
   }
 }
 
+/* Hero Inner Img in Mobile Screens */
+@media (width <= 1000px) {
+  .e-sm-con {
+    height: 6rem;
+    position: relative;
+    top: -7rem;
+    left: 5rem;
+  }
+}
+
+/* Hero Title in Mobile Screens */
+@media (width <= 1000px) {
+  .title-box {
+    max-width: 32rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: xx-large;
+  }
+}
+
 @media (width <= 1091px) {
   .hero {
     max-width: 72rem;

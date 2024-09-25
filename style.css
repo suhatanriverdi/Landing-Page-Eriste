@@ -527,7 +527,7 @@ input[data-value="3"] ~ #amount {
 }
 
 .e-sm-con {
-  height: 9rem;
+  height: 8rem;
   position: relative;
   top: -6rem;
   left: 10rem;
@@ -591,8 +591,10 @@ input[data-value="3"] ~ #amount {
 }
 
 .title-box {
-  width: 32rem;
+  max-width: 32rem;
   text-align: center;
+  font-weight: 300;
+  font-size: xxx-large;
 }
 
 .hero {
