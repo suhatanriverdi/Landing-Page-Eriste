@@ -88,9 +88,13 @@
     text-align: center;
   }
   .p-box {
-    width: 23rem;
+    width: 20rem;
     text-align: center;
     margin: 1.2rem 0 2.4rem 0;
+  }
+  .p-box-ctr {
+    width: 18rem;
+    text-align: center;
   }
 }
 
