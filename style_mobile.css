@@ -96,6 +96,13 @@
     width: 18rem;
     text-align: center;
   }
+  .ingredients-con {
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  .ingredients-order-con {
+    margin-top: 4rem;
+  }
 }
 
 /* Glow Effect in Mobile Screens */

@@ -547,6 +547,7 @@ input[data-value="3"] ~ #amount {
 
 .ingredients-con {
   justify-content: space-between;
+  margin-top: 1.2rem;
 }
 
 .about-links {
@@ -612,4 +613,8 @@ input[data-value="3"] ~ #amount {
   justify-content: center;
   align-items: start;
   text-align: center;
+}
+
+.ingredients-order-con {
+  margin-top: 10rem;
 }
