@@ -54,6 +54,16 @@
   }
 }
 
+@media (width <= 1091px) {
+  .hero {
+    max-width: 72rem;
+    justify-content: center;
+    width: 100%;
+    padding: 0 5rem;
+    gap: 8rem 0;
+  }
+}
+
 /* Navbar in Mobile Screens */
 @media (width <= 1000px) {
   #nav-links {

@@ -587,4 +587,17 @@ input[data-value="3"] ~ #amount {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+.title-box {
+  width: 32rem;
+  text-align: center;
+}
+
+.hero {
+  max-width: 72rem;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5rem;
 }
