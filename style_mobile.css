@@ -45,9 +45,9 @@
 }
 
 /* Stroke-Line in Mobile Screens */
-@media (width <= 1300px) {
+@media (width <= 1090px) {
   .stroke-line {
-    margin-top: 16rem;
+    margin-top: 5rem;
     padding: 0 5rem;
     width: 100%;
   }
