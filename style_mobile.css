@@ -45,6 +45,15 @@
   display: none;
 }
 
+/* Stroke-Line in Mobile Screens */
+@media (width <= 1300px) {
+  .stroke-line {
+    margin-top: 16rem;
+    padding: 0 5rem;
+    width: 100%;
+  }
+}
+
 /* Navbar in Mobile Screens */
 @media (width <= 1000px) {
   #nav-links {
