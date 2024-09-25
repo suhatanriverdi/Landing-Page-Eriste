@@ -55,12 +55,16 @@
 }
 
 /* Hero Inner Img in Mobile Screens */
-@media (width <= 1000px) {
+@media (width <= 600px) {
   .e-sm-con {
     height: 6rem;
+    width: 8rem;
     position: relative;
-    top: -7rem;
-    left: 5rem;
+    top: -4rem;
+    left: 14rem;
+  }
+  .e-big-con {
+    height: 12rem;
   }
 }
 
