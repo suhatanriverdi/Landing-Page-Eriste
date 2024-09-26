@@ -307,8 +307,8 @@
     top: 0px;
     left: 0px;
     gap: 3rem;
-    background-color: rgba(255, 234, 211, 0.7);
-    backdrop-filter: blur(0.5rem);
+    background-color: rgba(255, 155, 0, 0.1);
+    backdrop-filter: blur(0.9rem);
     padding: 2rem 1.5rem;
     box-shadow: 0 0 0.3rem 0.01rem rgba(119, 89, 33, 0.4);
   }
