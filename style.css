@@ -538,6 +538,10 @@ input[data-value="3"] ~ #amount {
   align-self: end;
 }
 
+.align-self-center {
+  align-self: center;
+}
+
 .weight {
   position: absolute;
   top: 55%;
@@ -663,4 +667,8 @@ input[data-value="3"] ~ #amount {
 
 .font-size-fix{
   width: 24rem;
+}
+
+.faq-title {
+  margin-bottom: 10rem;
 }
