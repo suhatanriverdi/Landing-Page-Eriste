@@ -140,27 +140,39 @@
     height: 3rem;
   }
   .prep-titles {
-    font-size: larger;
+    font-size: x-large;
     font-weight: 300;
   }
   .prep-con {
-    width: 22rem;
+    width: 28rem;
   }
 }
 
 @media (width <= 700px) {
   .prep-img-h {
-    height: 6rem;
+    height: 9rem;
   }
   .prep-arrow-h {
     height: 2rem;
   }
-  /* .prep-titles {
-    font-size: small;
-    font-weight: 300;
-  } */
+  .prep-titles {
+    font-size: 1.3rem;
+    font-weight: 200;
+  }
   .prep-con {
-    width: 16rem;
+    width: 20rem;
+  }
+  .circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background-color: var(--orange);
+  }
+  .number-title {
+    font-size: large;
+  }
+  .font-size-fix{
+    width: 22rem;
   }
 }
 

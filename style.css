@@ -504,7 +504,7 @@ input[data-value="3"] ~ #amount {
 }
 
 .prep-con {
-  width: 30rem;
+  width: 38rem;
 }
 
 .align-self-start {
@@ -528,9 +528,10 @@ input[data-value="3"] ~ #amount {
 
 .e-sm-con {
   height: 8rem;
+  width: 11rem;
   position: relative;
   top: -6rem;
-  left: 10rem;
+  left: 17rem;
 }
 
 .m-b-10 {
@@ -630,4 +631,12 @@ input[data-value="3"] ~ #amount {
 .prep-titles {
   font-size: x-large;
   font-weight: 300;
+}
+
+.number-title {
+  font-size: x-large;
+}
+
+.font-size-fix{
+  width: 24rem;
 }
