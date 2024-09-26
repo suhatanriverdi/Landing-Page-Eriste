@@ -89,6 +89,10 @@ input[data-value="3"] ~ #amount {
 .up-down-anim {
   animation: infiniteSlowUpDown 6s ease-in-out infinite;
 }
+.start-anim {
+  animation: fadeInUp 1s ease-in;
+}
+
 
 @keyframes infiniteSlowUpDown {
   0% {
