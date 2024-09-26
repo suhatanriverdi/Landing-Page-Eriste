@@ -83,6 +83,17 @@
   }
 }
 
+/* About Section Grid in Mobile Screens */
+/* @media (width <= 600px) {
+  .about-con {
+    max-width: 72rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    gap: 1rem 0;
+  }
+} */
+
 /* Gap in Order Section Mobile Screens */
 @media (width <= 640px) {
   .gap-order {
@@ -171,7 +182,7 @@
   .number-title {
     font-size: large;
   }
-  .font-size-fix{
+  .font-size-fix {
     width: 22rem;
   }
   .comment-con {
@@ -198,13 +209,13 @@
     align-items: flex-start;
     padding: 0 2rem;
   }
-  .about-con {
+  /* .about-con {
     max-width: 72rem;
     justify-content: space-between;
     gap: 5rem 1rem;
     text-align: justify;
     flex-wrap: wrap;
-  }
+  } */
   .about-text {
     font-style: italic;
     font-weight: 300;
