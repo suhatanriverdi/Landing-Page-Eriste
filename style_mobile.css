@@ -131,6 +131,39 @@
   }
 }
 
+/* Prep Images */
+@media (width <= 1090px) {
+  .prep-img-h {
+    height: 10rem;
+  }
+  .prep-arrow-h {
+    height: 3rem;
+  }
+  .prep-titles {
+    font-size: larger;
+    font-weight: 300;
+  }
+  .prep-con {
+    width: 22rem;
+  }
+}
+
+@media (width <= 700px) {
+  .prep-img-h {
+    height: 6rem;
+  }
+  .prep-arrow-h {
+    height: 2rem;
+  }
+  /* .prep-titles {
+    font-size: small;
+    font-weight: 300;
+  } */
+  .prep-con {
+    width: 16rem;
+  }
+}
+
 @media (width <= 600px) {
   .hero {
     max-width: 72rem;

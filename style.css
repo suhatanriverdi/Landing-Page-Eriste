@@ -618,3 +618,16 @@ input[data-value="3"] ~ #amount {
 .ingredients-order-con {
   margin-top: 10rem;
 }
+
+.prep-img-h {
+  height: 14rem;
+}
+
+.prep-arrow-h {
+  height: 4rem;
+}
+
+.prep-titles {
+  font-size: x-large;
+  font-weight: 300;
+}
