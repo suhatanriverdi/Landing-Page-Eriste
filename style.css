@@ -219,7 +219,7 @@ input[data-value="3"] ~ #amount {
 }
 
 .m-t-xxxl {
-  margin-top: 20rem;
+  margin-top: 14rem;
 }
 
 .line-h {
@@ -466,8 +466,7 @@ input[data-value="3"] ~ #amount {
 /* Grid */
 .about-con {
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   gap: 2rem;
 }
 
@@ -487,8 +486,6 @@ input[data-value="3"] ~ #amount {
   font-style: italic;
   font-weight: 300;
   text-align: justify;
-  /* width: 28rem; */
-  /* padding: 1rem; */
 }
 
 .about-menu {

@@ -209,13 +209,14 @@
     align-items: flex-start;
     padding: 0 2rem;
   }
-  /* .about-con {
-    max-width: 72rem;
-    justify-content: space-between;
-    gap: 5rem 1rem;
-    text-align: justify;
-    flex-wrap: wrap;
-  } */
+  .about-con {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .grid-item-1 {
+    grid-column: span 1;
+  }
   .about-text {
     font-style: italic;
     font-weight: 300;
