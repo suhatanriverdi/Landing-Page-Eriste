@@ -85,6 +85,23 @@ input[data-value="3"] ~ #amount {
   content: "3 Kg";
 }
 
+/* Up-down Animation for hero image */
+.up-down-anim {
+  animation: infiniteSlowUpDown 6s ease-in-out infinite;
+}
+
+@keyframes infiniteSlowUpDown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 /* Animation when text changes */
 .slider-value {
   transition: opacity 0.3s ease, transform 0.3s ease;
