@@ -196,7 +196,29 @@
     margin-top: 5rem;
     justify-content: center;
     align-items: flex-start;
-    padding: 0 3rem;
+    padding: 0 2rem;
+  }
+  .about-con {
+    max-width: 72rem;
+    justify-content: space-between;
+    gap: 5rem 1rem;
+    text-align: justify;
+    flex-wrap: wrap;
+  }
+  .about-text {
+    font-style: italic;
+    font-weight: 300;
+    width: 22rem;
+  }
+  .order-about {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    padding: 0;
+  }
+  .about-menu {
+    font-weight: 300;
+    width: 9rem;
   }
 }
 

@@ -1,3 +1,4 @@
+<!-- Written by Süha Tanrıverdi, 2024 All Rights Reserved. -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -67,358 +68,59 @@
     </nav>
 
     <div class="content">
-      <!-- Hero Section -->
-      <section class="start-anim hero flex flex-wrap">
-        <div class="up-down-anim flex flex-col j-c-cntr a-i-cntr">
-          <div class="glow"></div>
-          <div class="e-big-con">
-            <img src="./public/hero/eriste-big.png" alt="Turkish pasta" />
-            <div class="e-sm-con">
-              <img src="./public/hero/eriste-small.png" alt="Turkish pasta" />
+
+
+      <!-- About Us -->
+      <section class="order-about flex-col flex flex-wrap">
+        <div class="customers-con m-t-xxl flex flex-col a-i-start m-b-xxl">
+          <h1 class="font-light font-xxl">Hakkımızda</h1>
+        </div>
+        <div class="flex about-con">
+          <div class="flex flex-col a-i-cntr f-2">
+            <div class="logo-con flex m-b-m">
+              <div class="logo-img">
+                <img src="./public/hero/rose.png" alt="Company logo" />
+              </div>
+              <div id="gulderen" class="text-cntr">
+                <p class="font-logo font-xxl line-h">Gülderen</p>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="flex flex-col j-c-cntr a-i-cntr text-cntr">
-          <h1 class="m-b-m title-box">
-            Doğal, Sağlıklı ve Lezzetli Eriştenin Hası!
-          </h1>
-          <p class="font-light m-b-m">
-            Hemen sipariş vermek için butona tıklayın.
-          </p>
-          <button class="button flex j-c-cntr a-i-cntr">
-            <span class="material-symbols-outlined m-r-s"> shopping_cart </span
-            >Sipariş Ver
-          </button>
-        </div>
-      </section>
-
-      <!-- Stroke Line -->
-      <section id="order" class="stroke-line flex">
-        <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
-          <line
-            x1="0"
-            x2="100%"
-            stroke-dasharray="5,3,5"
-            style="stroke: rgb(193, 117, 30); stroke-width: 2"
-          />
-        </svg>
-      </section>
-
-      <!-- Order Section -->
-      <h1 class="text-cntr font-light font-xxl m-t-xxl">Sipariş Ver</h1>
-      <section class="order flex-col flex">
-        <div class="flex gap-order j-c-cntr a-i-cntr flex-wrap">
-          <div class="pos-rel flex flex-col j-c-cntr a-i-cntr">
-            <p
-              id="amount"
-              class="slider-value show weight font-light font-xxxl"
-              data-value="2"
-            >
-              2 kg
+            <p class="about-text">
+              1971 yılında Ankarada doğan Gülderen teyze, çektiği bütün
+              sıkıntıları ve cefa dolu hayat mücadelesinde çocuklarını en iyi
+              şartlarda yetiştirebilmek için elinden geleni yaptı. Yaptığı tüm
+              yemeklerde elinin lezzeti hiç eksik olmadı. Yılların verdiği el
+              lezzetiyle günümüze kadar hiç bozulmadan getirdiği kalitesiyle siz
+              degerli müsterilerimize sağlıklı, kaliteli ve bir o kadar da
+              lezzetli erişteleri sofranıza getiriyoruz.
             </p>
-            <div>
-              <img src="./public/order/sack.png" alt="A filled sack" />
-            </div>
-            <p class="font-light font-l">Sade Erişte</p>
           </div>
-          <div class="flex flex-col slider-con">
-            <label for="amount">Miktar Belirleyin:</label><br />
-            <div class="flex j-c-cntr a-i-cntr order-con m-b-m">
-              <div class="flex flex-col">
-                <input
-                  class="slider"
-                  type="range"
-                  id="slider"
-                  name="temp"
-                  min="1"
-                  max="5"
-                  value="2"
-                  list="values"
-                />
-                <datalist id="values">
-                  <option value="1" label="1 Kg"></option>
-                  <option value="2" label="2 Kg"></option>
-                  <option value="3" label="3 Kg"></option>
-                  <option value="4" label="4 Kg"></option>
-                  <option value="5" label="5 Kg"></option>
-                </datalist>
-              </div>
-            </div>
-            <p class="font-light m-b-m p-box">
-              Ürünleriniz belirtilen ağırlıkta, görseldeki kutu içerisinde
-              kargoda tarafınıza teslim edilecektir.
+          <div class="flex flex-col about-menu about-links">
+            <b>Menü</b>
+            <a class="font-light" href="#hero">Ana Sayfa</a>
+            <a class="font-light" href="#order">Sipariş Ver</a>
+            <a class="font-light" href="#preparation">Hazırlanış</a>
+            <a class="font-light" href="#customers">Sizden Gelenler</a>
+            <a class="font-light" href="#faq">SSS</a>
+            <a class="font-light" href="#about-us">Hakkımızda</a>
+          </div>
+          <div class="flex flex-col about-contact about-links">
+            <b>Bize Ulaşın</b>
+            <p class="allow-user-select font-light" href="#">
+              <span>📞 </span>+90 542 123 12 12
             </p>
-            <button class="button-order flex j-c-cntr a-i-cntr">
-              <span class="material-symbols-outlined">shopping_cart </span>
-              <p class="m-l-m">Sipariş Ver</p>
-            </button>
-          </div>
-        </div>
-        <div class="ingredients-con ingredients-order-con">
-          <p class="font-light p-box-ctr">
-            Ürünlerimiz yalnızca doğal malzemelerden yapılır ve hiç bir katkı
-            maddesi içermez.
-          </p>
-          <div class="ingredients-con flex a-i-cntr">
-            <div class="flex flex-col text-cntr j-c-cntr a-i-cntr">
-              <div class="img-con-s">
-                <img src="./public/order/wheat.png" alt="Wheat" />
-              </div>
-              <p class="font-light m-b-m">Buğday Unu</p>
-            </div>
-            <div class="flex flex-col text-cntr j-c-cntr a-i-cntr">
-              <div class="img-con-s">
-                <img src="./public/order/egg.png" alt="Wheat" />
-              </div>
-              <p class="font-light m-b-m">Yumurta</p>
-            </div>
-            <div class="flex flex-col text-cntr j-c-cntr a-i-cntr">
-              <div class="img-con-s">
-                <img src="./public/order/salt.png" alt="Wheat" />
-              </div>
-              <p class="font-light m-b-m">Tuz</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Stroke Line -->
-      <section id="preparation" class="stroke-line flex">
-        <div>
-          <!-- <img src="/public/eriste-side-half.png" alt="eriste" /> -->
-        </div>
-        <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
-          <line
-            x1="0"
-            x2="100%"
-            stroke-dasharray="5,10,5"
-            style="stroke: rgb(193, 117, 30); stroke-width: 2"
-          />
-        </svg>
-      </section>
-
-      <!-- Preparation Section -->
-      <h1 class="text-cntr font-light font-xxl m-t-xxl">Hazırlanış</h1>
-      <section class="order flex-col flex flex-wrap">
-        <div class="prep-con flex flex-col a-i-cntr">
-          <div class="m-b-l align-self-start">
-            <div class="flex j-c-cntr a-i-cntr m-b-s">
-              <div class="circle flex j-c-cntr a-i-cntr m-r-s">
-                <p class="number-title">1</p>
-              </div>
-              <p class="prep-titles">Hamur hazırlanır ve açılır</p>
-            </div>
-            <div class="prep-img-h">
-              <img src="./public/preparation/1.png" alt="Dough" />
-            </div>
-          </div>
-          <!-- Arrow Right -->
-          <div class="m-b-l prep-arrow-h">
-            <img src="./public/preparation/right.png" alt="arrow" />
-          </div>
-          <div class="m-b-l align-self-end">
-            <div class="flex j-c-cntr a-i-cntr m-b-s">
-              <div class="circle flex j-c-cntr a-i-cntr m-r-s">
-                <p class="number-title">2</p>
-              </div>
-              <p class="prep-titles">Hamur saçta pişirilir</p>
-            </div>
-            <div class="prep-img-h">
-              <img src="./public/preparation/2.png" alt="Baking" />
-            </div>
-          </div>
-          <!-- Arrow Left -->
-          <div class="m-b-l prep-arrow-h">
-            <img src="./public/preparation/left.png" alt="arrow" />
-          </div>
-          <div class="m-b-l align-self-start">
-            <div class="flex j-c-cntr a-i-cntr m-b-s">
-              <div class="circle flex j-c-cntr a-i-cntr m-r-s">
-                <p class="number-title">3</p>
-              </div>
-              <p class="prep-titles">Hamur kesilip erişte halini alır</p>
-            </div>
-            <div class="prep-img-h">
-              <img src="./public/preparation/3.png" alt="Dough" />
-            </div>
-          </div>
-          <!-- Arrow Right -->
-          <div class="m-b-l prep-arrow-h">
-            <img src="./public/preparation/right.png" alt="arrow" />
-          </div>
-          <div class="m-b-l align-self-end">
-            <div class="flex j-c-cntr a-i-cntr m-b-s">
-              <div class="circle flex j-c-cntr a-i-cntr m-r-s">
-                <p class="number-title">4</p>
-              </div>
-              <p class="prep-titles">Erişteler güneşte kurutulur</p>
-            </div>
-            <div class="prep-img-h">
-              <img src="./public/preparation/5.png" alt="Dough" />
-            </div>
-          </div>
-          <!-- Arrow Left -->
-          <div class="m-b-l prep-arrow-h">
-            <img src="./public/preparation/left.png" alt="arrow" />
-          </div>
-          <div class="m-b-l align-self-start">
-            <div class="flex j-c-cntr a-i-cntr m-b-s font-size-fix">
-              <div class="circle flex j-c-cntr a-i-cntr m-r-s">
-                <p class="number-title">5</p>
-              </div>
-              <p class="prep-titles">Erişteler paketlenir ve depolanır</p>
-            </div>
-            <div class="prep-img-h">
-              <img src="./public/preparation/4.png" alt="Dough" />
-            </div>
-          </div>
-          <!-- Arrow Right -->
-          <div class="m-b-l prep-arrow-h">
-            <img src="./public/preparation/right.png" alt="arrow" />
-          </div>
-          <div class="m-b-l">
-            <div class="flex j-c-cntr a-i-cntr">
-              <p class="prep-titles m-b-m">Afiyet olsun!</p>
-            </div>
-            <div class="prep-img-h">
-              <img src="./public/preparation/6.png" alt="Dough" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Stroke Line -->
-      <section id="customers" class="stroke-line flex">
-        <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
-          <line
-            x1="0"
-            x2="100%"
-            stroke-dasharray="5,10,5"
-            style="stroke: rgb(193, 117, 30); stroke-width: 2"
-          />
-        </svg>
-      </section>
-
-      <!-- Customer Comments Section -->
-      <section class="order-cus flex-col flex">
-        <div class="customers-con flex flex-col a-i-start">
-          <h1 class="m-b-s font-light font-xxl orange-color">
-            Müşterilerimizin Yorumları
-          </h1>
-          <p class="font-light">Sizden gelen yorumları derledik...</p>
-        </div>
-        <div class="comment-con flex j-c-cntr text-cntr">
-          <div class="flex flex-col a-i-cntr">
-            <div class="img-con-s m-b-m">
-              <img src="./public/customer-comments/1.png" alt="Women face" />
-            </div>
-            <p class="font-light font-italic m-b-m">
-              Ben ömrü hayatımda böyle erişte yemedim, gerçekten fiyatının
-              hakkını sonuna kadar veriyor... Ellerine sağlık Gülderen Teyzem!
+            <p class="allow-user-select font-light" href="#">
+              <span>✉️ </span>gulderenmutfagi@gmail.com
             </p>
-            <p class="font-light">Sena Türker</p>
-            <p class="font-light font-s">Berlin, Almanya</p>
-          </div>
-          <div class="flex flex-col a-i-cntr m-h">
-            <div class="img-con-s m-b-m">
-              <img
-                src="./public/customer-comments/2.png"
-                alt="Women standing"
-              />
-            </div>
-            <p class="font-light font-italic m-b-m">
-              Öyle bir erişte düşünün ki Gülderen Teyze eriştelerini yedikten
-              sonra bir daha ben başka erişte yemem diyeceksiniz.
-            </p>
-            <p class="font-light">Arif Türker</p>
-            <p class="font-light font-s">Berlin, Almanya</p>
-          </div>
-          <div class="flex flex-col a-i-cntr">
-            <div class="img-con-s m-b-m">
-              <img src="./public/customer-comments/3.png" alt="Women face" />
-            </div>
-            <p class="font-light font-italic m-b-m">
-              Tek kelimeyle muhteşem! Ellerine sağlık Gülderen Teyze! Sayende
-              hem sağlıklı hem de lezzetli eriştelere kavuştuk
-            </p>
-            <p class="font-light">Melih Tanrısevdi</p>
-            <p class="font-light font-s">Ankara, Türkiye</p>
           </div>
         </div>
-      </section>
-
-      <!-- Stroke Line -->
-      <section id="faq" class="stroke-line flex">
-        <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
-          <line
-            x1="0"
-            x2="100%"
-            stroke-dasharray="5,10,5"
-            style="stroke: rgb(193, 117, 30); stroke-width: 2"
-          />
-        </svg>
-      </section>
-
-      <!-- FAQ -->
-      <section class="order flex-col flex flex-wrap">
-        <div class="faq-title flex flex-col a-i-start align-self-center">
-          <h1 class="font-light font-xxl">Sıkça Sorulan Sorular</h1>
-        </div>
-
-        <div class="dropdown-con flex a-i-cntr">
-          <p>Siparişim ne zaman kargolanır?</p>
-        </div>
-        <div class="dropdown-content-con flex">
-          <p>
-            Siparişinizin kargolanması bizimle olan iletişiminize bağlıdır,
-            siparişlerinizi genellikle 1 hafta içerisinde kargoya veriyoruz.
-            Tarafınıza ulaşmadığı takdirde bizimle hemen iletişime
-            geçebilirsiniz.
-          </p>
-        </div>
-
-        <div class="dropdown-con flex a-i-cntr">
-          <p>Hangi un markasını kullanıyorsunuz?</p>
-        </div>
-        <div class="dropdown-content-con flex">
-          <p>
-            Ürünlerimizde Çorumdan özel olarak getirtdiğimiz ve Hatap Un markası
-            ile çalıştığımız bize özel formülü olan bir un kullanmaktayız.
-          </p>
-        </div>
-
-        <div class="dropdown-con flex a-i-cntr">
-          <p>Hangi şehirlere gönderim yapılmaktadır?</p>
-        </div>
-        <div class="dropdown-content-con flex">
-          <p>
-            Ülkemizdeki Yurtiçi kargonun ulaştığı tüm şehirlerimize gönderim
-            yapmaktayız.
-          </p>
-        </div>
-
-        <div class="dropdown-con flex a-i-cntr">
-          <p>Sizinle nasıl iletişime geçebilirim?</p>
-        </div>
-        <div class="dropdown-content-con flex">
-          <p>
-            Her türlü istek, öneri ve şikayetleriniz için, veya 5kg dan fazla
-            siparişleriniz için bize WhatsApp hattımızdan ulaşabilirsiniz.
-          </p>
+        <div class="m-t-xxxl flex flex-col a-i-cntr m-b-xl">
+          <h1 class="font-light font-s">All Rights Reserved.</h1>
+          <h1 class="font-light font-s m-b-s">Genesis Corporation™ 2024</h1>
+          <p class="font-light font-xxs">Created by <b>Süha Tanrıverdi</b></p>
         </div>
       </section>
-
-      <!-- Stroke Line -->
-      <section id="about-us" class="stroke-line flex">
-        <svg height="10" width="100%" xmlns="http://www.w3.org/2000/svg">
-          <line
-            x1="0"
-            x2="100%"
-            stroke-dasharray="5,10,5"
-            style="stroke: rgb(193, 117, 30); stroke-width: 2"
-          />
-        </svg>
-      </section>
+      <div class="glow-about"></div>
     </div>
 
     <!-- JS to update kg label based on slider's value -->

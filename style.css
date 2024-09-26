@@ -457,9 +457,26 @@ input[data-value="3"] ~ #amount {
 
 .about-con {
   max-width: 72rem;
-  justify-content: space-between;
-  gap: 0 5rem;
+  justify-content: center;
+  gap: 3rem 5rem;
   text-align: justify;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  font-style: italic;
+  font-weight: 300;
+  width: 28rem;
+}
+
+.about-menu {
+  font-weight: 300;
+  width: 14rem;
+}
+
+.about-contact {
+  font-weight: 300;
+  width: 14rem;
 }
 
 .nav-con {
