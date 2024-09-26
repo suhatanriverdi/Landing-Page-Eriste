@@ -45,11 +45,17 @@
 }
 
 /* Stroke-Line in Mobile Screens */
-@media (width <= 1090px) {
+@media (width <= 1350px) {
   .stroke-line {
-    margin-top: 5rem;
+    margin-top: 10rem;
     padding: 0 5rem;
     width: 100%;
+  }
+}
+
+@media (width <= 600px) {
+  .stroke-line {
+    margin-top: 5rem;
   }
 }
 
@@ -132,6 +138,15 @@
     width: 100%;
     padding: 0 5rem;
     gap: 4rem 0;
+  }
+  .m-t-xxl {
+    margin-top: 5rem;
+  }
+  .order {
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
   }
 }
 
