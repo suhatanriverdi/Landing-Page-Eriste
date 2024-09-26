@@ -544,6 +544,7 @@ input[data-value="3"] ~ #amount {
 
 .customers-con {
   max-width: 72rem;
+  margin: 10rem 0;
 }
 
 .ingredients-con {
