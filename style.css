@@ -93,7 +93,6 @@ input[data-value="3"] ~ #amount {
   animation: fadeInUp 1s ease-in;
 }
 
-
 @keyframes infiniteSlowUpDown {
   0% {
     transform: translateY(0px);
@@ -301,7 +300,7 @@ input[data-value="3"] ~ #amount {
 }
 
 .dropdown-con {
-  width: 65%;
+  width: 70%;
   height: 3rem;
   border-radius: 5rem;
   border: var(--orange);
@@ -309,12 +308,15 @@ input[data-value="3"] ~ #amount {
   background-color: var(--orange);
   font-size: large;
   font-weight: 300;
+  margin: 1.2rem 0;
+  padding-left: 1.2rem;
 }
 
 .dropdown-content-con {
   width: 65%;
   font-size: large;
   font-weight: 300;
+  padding-left: 1.2rem;
 }
 
 .button {
