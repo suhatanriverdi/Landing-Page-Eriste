@@ -705,9 +705,20 @@ input[data-value="3"] ~ #amount {
   margin-bottom: 10rem;
 }
 
-.go-back-up-con {
-  position: sticky;
-  bottom: 9vh;
-  margin-top: calc(30vh + 60rem);
-  margin-left: 90vw;
+.go-top-btn {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.3s ease;
 }
+
+.show-go-top-btn {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+

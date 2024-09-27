@@ -475,7 +475,7 @@
         </div>
       </section>
       <div class="glow-about"></div>
-      <a class="go-back-up-con" href="#hero">
+      <a id="goTopBtn" class="go-top-btn" href="#hero">
         <div class="circle flex j-c-cntr a-i-cntr">
           <span class="rot-90-neg material-symbols-outlined">
             arrow_forward_ios
@@ -497,6 +497,21 @@
         void amount.offsetWidth; // Trigger reflow to restart animation
         amount.classList.add("show");
       });
+
+      // Go-back-button
+      const scrollToTopBtn = document.getElementById("goTopBtn");
+      const rootElement = document.documentElement;
+      function handleScroll() {
+        const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+        if (rootElement.scrollTop / scrollTotal > 0.2) {
+          // Show button
+          scrollToTopBtn.classList.add("show-go-top-btn");
+        } else {
+          // Hide button
+          scrollToTopBtn.classList.remove("show-go-top-btn");
+        }
+      }
+      document.addEventListener("scroll", handleScroll);
     </script>
   </body>
 </html>

@@ -281,6 +281,21 @@
     font-weight: 300;
     padding-left: 1.2rem;
   }
+  .go-top-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.3s ease;
+  }
+  .show-go-top-btn {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Navbar in Mobile Screens */
