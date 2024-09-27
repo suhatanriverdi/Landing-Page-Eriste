@@ -308,9 +308,10 @@
     left: 0px;
     gap: 3rem;
     background-color: rgba(255, 155, 0, 0.1);
-    backdrop-filter: blur(0.9rem);
     padding: 2rem 1.5rem;
     box-shadow: 0 0 0.3rem 0.01rem rgba(119, 89, 33, 0.4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 
   /* To close side bar by clicking on body */
