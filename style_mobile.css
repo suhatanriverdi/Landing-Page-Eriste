@@ -83,17 +83,6 @@
   }
 }
 
-/* About Section Grid in Mobile Screens */
-/* @media (width <= 600px) {
-  .about-con {
-    max-width: 72rem;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr;
-    gap: 1rem 0;
-  }
-} */
-
 /* Gap in Order Section Mobile Screens */
 @media (width <= 640px) {
   .gap-order {
@@ -178,6 +167,13 @@
     height: 2.5rem;
     border-radius: 50px;
     background-color: var(--orange);
+  }
+  .circle-btn {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    background-color: #ff880059;
+    backdrop-filter: blur(0.3rem);
   }
   .number-title {
     font-size: large;
@@ -313,7 +309,6 @@
   }
 
   .checkbox:checked ~ #nav-links {
-    z-index: 5;
     animation: 0.15s ease-in forwards side-move-in;
     display: flex;
     flex-direction: column;
@@ -326,7 +321,9 @@
     background-color: rgba(255, 155, 0, 0.1);
     padding: 2rem 1.5rem;
     box-shadow: 0 0 0.3rem 0.01rem rgba(119, 89, 33, 0.4);
-    backdrop-filter: blur(10px);
+    /* Mozilla & Safari Blur Fix */
+    -webkit-backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(0.5rem);
   }
 
   /* To close side bar by clicking on body */

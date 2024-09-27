@@ -423,6 +423,14 @@ input[data-value="3"] ~ #amount {
   background-color: var(--orange);
 }
 
+.circle-btn {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50px;
+  background-color: #ff880059;
+  backdrop-filter: blur(0.3rem);
+}
+
 .pos-rel {
   position: relative;
 }
@@ -500,7 +508,8 @@ input[data-value="3"] ~ #amount {
   padding: 1rem 2rem;
   width: 100%;
   justify-content: center;
-  backdrop-filter: blur(0.3rem);
+  -webkit-backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(0.5rem);
   /* background: #fffcf9; */
 }
 
