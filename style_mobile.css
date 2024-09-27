@@ -313,6 +313,7 @@
   }
 
   .checkbox:checked ~ #nav-links {
+    z-index: 5;
     animation: 0.15s ease-in forwards side-move-in;
     display: flex;
     flex-direction: column;
@@ -327,7 +328,6 @@
     box-shadow: 0 0 0.3rem 0.01rem rgba(119, 89, 33, 0.4);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    z-index: 5;
   }
 
   /* To close side bar by clicking on body */
