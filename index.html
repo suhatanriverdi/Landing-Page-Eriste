@@ -524,6 +524,21 @@
         }
       }
       document.addEventListener("scroll", handleScroll);
+
+      // Labels to work and toggle
+      document.querySelectorAll('label[for="check"]').forEach((label) => {
+        label.addEventListener("click", function (event) {
+          event.preventDefault(); // Prevent default anchor behavior
+
+          // Toggle the checkbox to close the navbar
+          const checkbox = document.getElementById("check");
+          checkbox.checked = !checkbox.checked;
+
+          // Navigate to the section
+          const target = this.querySelector("a").getAttribute("href");
+          window.location.hash = target;
+        });
+      });
     </script>
   </body>
 </html>

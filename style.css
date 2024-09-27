@@ -510,7 +510,6 @@ input[data-value="3"] ~ #amount {
   justify-content: center;
   -webkit-backdrop-filter: blur(0.5rem);
   backdrop-filter: blur(0.5rem);
-  /* background: #fffcf9; */
 }
 
 .nav-con-inner {
@@ -730,4 +729,3 @@ input[data-value="3"] ~ #amount {
   opacity: 1;
   transform: translateY(0);
 }
-
