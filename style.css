@@ -304,6 +304,7 @@ input[data-value="3"] ~ #amount {
 
 .logo-img {
   height: 3rem;
+  width: 4rem;
 }
 
 .dropdown-con {
