@@ -502,14 +502,25 @@ input[data-value="3"] ~ #amount {
   width: 14rem;
 }
 
+#blurred-nav::before {
+  content: "";
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 48px;
+  padding: 1rem 2rem;
+  -webkit-backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(0.5rem);
+}
+
 .nav-con {
   position: fixed;
-  z-index: 1;
+  z-index: 19;
   padding: 1rem 2rem;
   width: 100%;
   justify-content: center;
-  -webkit-backdrop-filter: blur(0.5rem);
-  backdrop-filter: blur(0.5rem);
+  /* -webkit-backdrop-filter: blur(0.5rem); */
+  /* backdrop-filter: blur(0.5rem); */
 }
 
 .nav-con-inner {
