@@ -32,6 +32,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  min-height: 100vh;
+}
+
 .brown-color {
   color: var(--brown);
 }
@@ -642,7 +646,7 @@ input[data-value="3"] ~ #amount {
   margin-top: 10rem;
   justify-content: center;
   align-items: center;
-  padding: 0 3rem;
+  margin: 0 3rem;
 }
 
 .order-about {
