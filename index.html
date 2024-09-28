@@ -541,9 +541,11 @@
 
             // Navigate to the section
             const target = this.querySelector("a").getAttribute("href");
-            // iOS and Android chrome fix
-            window.location.hash = "";
-            window.location.hash = target;
+            console.log("Target:", target);
+            window.scrollTo({
+              top: document.querySelector(`${target}`).offsetTop, // Position of the element
+              behavior: "smooth",
+            });
           });
         });
     </script>
