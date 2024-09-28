@@ -77,8 +77,8 @@
   .e-sm-con {
     height: 6rem;
     position: relative;
-    top: -6rem;
-    left: 24vw;
+    top: -5rem;
+    left: 55%;
     max-width: fit-content;
   }
 }
