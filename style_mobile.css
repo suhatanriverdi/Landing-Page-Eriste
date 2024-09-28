@@ -124,7 +124,7 @@
 /* Glow Effect in Mobile Screens */
 @media (width <= 600px) {
   .glow {
-    width: 8rem;
+    width: 5rem;
     z-index: -1;
     box-shadow: 0 0 4rem 6rem var(--orange);
   }
