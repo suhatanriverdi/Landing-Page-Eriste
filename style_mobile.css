@@ -210,6 +210,9 @@
   .m-t-xxl {
     margin-top: 5rem;
   }
+  .m-b-xxl {
+    margin-bottom: 5rem;
+  }
   .order {
     margin-top: 5rem;
     justify-content: center;
@@ -265,7 +268,7 @@
     font-weight: 300;
   }
   .faq-title {
-    margin-bottom: 4.8rem;
+    margin: 4.8rem 0;
   }
 }
 

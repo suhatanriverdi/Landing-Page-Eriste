@@ -724,7 +724,7 @@ input[data-value="3"] ~ #amount {
 }
 
 .faq-title {
-  margin-bottom: 10rem;
+  margin: 10rem 0;
 }
 
 .go-top-btn {
