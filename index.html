@@ -540,7 +540,9 @@
             const target = this.querySelector("a").getAttribute("href");
             // iOS and Android chrome fix
             window.location.hash = "";
-            window.location.hash = target;
+            setTimeout(() => {
+              window.location.hash = target;
+            }, 100);
           });
         });
     </script>
